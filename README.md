@@ -3,11 +3,11 @@ Berechnet Feiertage
 
 > Konsolenvariante starten:
 
-    java FeierDay.java
+    java FeierDay
 
 > GUI Variante starten:
 
-    java FeierDayGui.java
+    java FeierDayGui
 
 > Jahr eingeben
 
