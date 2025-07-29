@@ -1,13 +1,13 @@
 # Feiertagsrechner
 Berechnet Feiertage 
 
-Konsolenvariante starten:
+> Konsolenvariante starten:
 
-  java FeierDay.java
+    java FeierDay.java
 
-GUI Variante starten:
+> GUI Variante starten:
 
-  java FeierDayGui.java
+    java FeierDayGui.java
 
 > Jahr eingeben
 
