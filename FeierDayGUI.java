@@ -3,7 +3,7 @@ import java.util.ArrayList;
 import java.util.stream.Collectors;
 import javax.swing.*;
 
-public class FeiertageGUI {
+public class FeierDayGUI {
 
     static class Feiertag {
         int tag;
@@ -49,7 +49,7 @@ public class FeiertageGUI {
         inputPanel.add(berechnenButton);
 
     
-        topPanel.add(Box.createVerticalStrut(10)); // optionaler Abstand
+        topPanel.add(Box.createVerticalStrut(10));
         topPanel.add(bildLabel);
         topPanel.add(Box.createVerticalStrut(10));
         topPanel.add(inputPanel);
@@ -96,7 +96,6 @@ public class FeiertageGUI {
                 JOptionPane.showMessageDialog(frame, "Bitte ein gültiges Jahr eingeben!", "Fehler", JOptionPane.ERROR_MESSAGE);
             }
         });
-
         frame.setVisible(true);
     }
 
@@ -140,7 +139,6 @@ public class FeiertageGUI {
             tag = tag % 31;
             monat = 4;
         }
-
         return new int[]{tag, monat};
     }
 
