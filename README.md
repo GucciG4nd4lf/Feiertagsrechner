@@ -8,6 +8,7 @@ Berechnet Feiertage
 > GUI Variante starten:
 
     java FeierDayGui
+    oder FeierDay.jar ausführen
 
 > Jahr eingeben
 

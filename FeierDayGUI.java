@@ -34,7 +34,7 @@ public class FeierDayGUI {
 
 
         ImageIcon originalIcon = new ImageIcon("logo.jpg");
-        Image scaledImage = originalIcon.getImage().getScaledInstance(250, 200, Image.SCALE_SMOOTH);
+        Image scaledImage = originalIcon.getImage().getScaledInstance(250, 250, Image.SCALE_SMOOTH);
         ImageIcon scaledIcon = new ImageIcon(scaledImage);
         JLabel bildLabel = new JLabel(scaledIcon);
         bildLabel.setAlignmentX(Component.CENTER_ALIGNMENT);
